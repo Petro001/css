@@ -16,11 +16,11 @@ h1 {
     color: blue;
 }
 
-section div {
+section .box {
     background-color: green;
 }
 
-section div p {
+section .box p {
     background: red;
 }
 .brown {
@@ -55,19 +55,19 @@ li:first-child {
     color: yellow;
 }
 
-Li:first-child {
+li:first-child {
     background-color: yellow;
 }
-li:last-child {
+ li:last-child {
     background-color: yellow;
 }
 li:last-child {
     color: white;
 }
 
-div:only-child {
+ div:only-child {
     color: red;
-}
+} 
 
 span:first-of-type {
     background-color: red;
@@ -114,7 +114,7 @@ span[class$="s"] {
     color: blue;
 }
 
-h2::first-letter {
+.lesson-three-task-nine h2::first-letter {
     color: red;
 }
 
