@@ -28,9 +28,9 @@ section .box p {
     color: white;
 }
 
-ul > li {
+/* ul > li {
     background-color: red;
-}
+} */
 
 button + span {
     background-color: red;
@@ -47,25 +47,25 @@ button + span {
     background-color: yellow;
 }
 
-li:first-child {
+.first-task li:first-child {
     color: white;
 }
 
-li:first-child {
+.second-task li:first-child {
     color: yellow;
 }
 
-li:first-child {
+.third-task li:first-child {
     background-color: yellow;
 }
- li:last-child {
+ .four-task li:last-child {
     background-color: yellow;
 }
-li:last-child {
+.five-task li:last-child {
     color: white;
 }
 
- div:only-child {
+.only-child-task div:only-child {
     color: red;
 } 
 
@@ -99,17 +99,17 @@ button[class|="secondary"] {
     background-color: red;
 }
 
-li[class^="b"] {
+.lesson-three-task-six li[class^="b"] {
     background-color: white;
     color: green;
 }
 
-li[class*="on"] {
+.lesson-three-task-seven li[class*="on"] {
     background-color: white;
     color: green;
 }
 
-span[class$="s"] {
+.lesson-three-task-eight li span[class$="s"] {
     background-color: white;
     color: blue;
 }
@@ -126,10 +126,10 @@ input::placeholder {
     background-color: red;
 }
 
-li::before {
+.lesson-three-task-twelve li::before {
     content: "➤";
 }
 
-li::after {
+.lesson-three-task-thirteen li::after {
     content: "➤";
 }
